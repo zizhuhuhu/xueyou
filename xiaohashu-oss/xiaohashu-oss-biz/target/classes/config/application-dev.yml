@@ -2,6 +2,6 @@
 # minio (上传图片需要，需配置成自己的地址)
 #=================================================================
 minio:
-  endpoint: http://192.168.134.128:9000
-  accessKey: admin
-  secretKey: password123
+  endpoint: # http://127.0.0.1:9000
+  accessKey: # admin
+  secretKey: #

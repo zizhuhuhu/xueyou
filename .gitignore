@@ -1,0 +1,13 @@
+# 编译产物（这是导致你刚才报错的主因）
+/target/
+*.class
+
+# IDEA 个人配置文件
+.idea/
+*.iml
+
+# 日志文件
+*.log
+
+# 敏感配置文件（建议把包含密钥的 dev 文件也排除）
+xiaohashu-auth/src/main/resources/config/application-dev.yml
