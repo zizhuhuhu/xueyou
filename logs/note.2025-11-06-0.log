@@ -1,0 +1,129 @@
+2025-11-06 16:09:41.205 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-06 16:09:41.261 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-06 16:09:41.761 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-06 16:09:41.770 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-06 16:09:41.771 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-06 16:09:42.202 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-06 16:09:42.203 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-06 16:09:42.216 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-11-06 16:09:42.356 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5c28b7a5-ef79-3b38-8258-84e6b3a22bd4
+2025-11-06 16:09:42.379 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.380 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.381 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.468 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.492 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.494 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.496 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.497 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$722/0x000001db2445f0c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.498 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.503 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.504 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-06 16:09:42.667 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8087 (http)
+2025-11-06 16:09:42.675 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-06 16:09:42.676 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-06 16:09:42.765 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-06 16:09:42.765 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 978 ms
+2025-11-06 16:09:43.229 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_DelayDeleteNoteRedisCacheTopic', namespace='', nameServer='127.0.0.1:9876', topic='DelayDeleteNoteRedisCacheTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-11-06 16:09:43.229 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:delayDeleteNoteRedisCacheConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-11-06 16:09:43.262 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-06 16:09:43.487 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-06 16:09:43.706 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-06 16:09:43.739 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-06 16:09:43.751 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-11-06 16:09:43.768 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-11-06 16:09:43.860 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='DeleteNoteLocalCacheTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=BROADCASTING', tlsEnable=false, instanceName=DEFAULT}
+2025-11-06 16:09:43.860 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:deleteNoteLocalCacheConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_2
+2025-11-06 16:09:44.644 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8087 (http) with context path ''
+2025-11-06 16:09:44.648 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-06 16:09:44.648 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-06 16:09:44.649 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-06 16:09:44.649 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-06 16:09:44.665 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-06 16:09:44.665 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-06 16:09:44.666 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-06 16:09:44.669 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-06 16:09:44.669 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-06 16:09:44.670 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-06 16:09:44.675 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of ec6145c7-bd00-4897-ae9f-3d37d47e5179
+2025-11-06 16:09:44.689 [main] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-06 16:09:44.689 [main] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-06 16:09:44.690 [main] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-06 16:09:44.692 [main] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-06 16:09:44.716 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-06 16:09:45.505 [main] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762416585317_127.0.0.1_10460
+2025-11-06 16:09:45.506 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] Notify connected event to listeners.
+2025-11-06 16:09:45.506 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-06 16:09:45.506 [main] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-06 16:09:45.506 [main] INFO  com.alibaba.nacos.common.remote.client - [ec6145c7-bd00-4897-ae9f-3d37d47e5179] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1284/0x000001db24897930
+2025-11-06 16:09:45.507 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-note with instance Instance{instanceId='null', ip='192.168.134.1', port=8087, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-06 16:09:45.519 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 192.168.134.1:8087 register finished
+2025-11-06 16:09:45.683 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 5.113 seconds (process running for 5.66)
+2025-11-06 16:10:43.720 [http-nio-8087-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06 16:10:43.720 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-06 16:10:43.721 [http-nio-8087-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-06 16:10:43.726 [http-nio-8087-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-06 16:10:43.726 [http-nio-8087-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-06 16:10:43.793 [http-nio-8087-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记仅对自己可见], 入参: {"id":1985337861871763515}, 请求类: NoteController, 请求方法: visibleOnlyMe =================================== 
+2025-11-06 16:10:43.807 [http-nio-8087-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-06 16:10:43.880 [http-nio-8087-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985337861871763515(Long)
+2025-11-06 16:10:43.894 [http-nio-8087-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-06 16:10:43.895 [http-nio-8087-exec-1] DEBUG c.q.x.n.b.d.m.NoteDOMapper.updateVisibleOnlyMe - ==>  Preparing: update t_note set visible = ?, update_time = ? where id = ? and `status` = 1
+2025-11-06 16:10:43.898 [http-nio-8087-exec-1] DEBUG c.q.x.n.b.d.m.NoteDOMapper.updateVisibleOnlyMe - ==> Parameters: 1(Integer), 2025-11-06T16:10:43.895255300(LocalDateTime), 1985337861871763515(Long)
+2025-11-06 16:10:43.905 [http-nio-8087-exec-1] DEBUG c.q.x.n.b.d.m.NoteDOMapper.updateVisibleOnlyMe - <==    Updates: 1
+2025-11-06 16:10:44.082 [http-nio-8087-exec-1] INFO  c.q.x.note.biz.service.impl.NoteServiceImpl - ====> MQ：删除笔记本地缓存发送成功...
+2025-11-06 16:10:44.083 [http-nio-8087-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记仅对自己可见], 耗时: 290ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-06 16:10:44.097 [http-nio-8087-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-06 16:10:45.092 [ConsumeMessageThread_xiaohashu_group_1] INFO  c.q.x.n.biz.consumer.DeleteNoteLocalCacheConsumer - ## 消费者消费成功, noteId: 1985337861871763515
+2025-11-06 16:13:37.530 [http-nio-8087-exec-5] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-06 16:13:37.530 [http-nio-8087-exec-5] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-06 16:13:37.532 [http-nio-8087-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记仅对自己可见], 入参: {"id":1985366349773275217}, 请求类: NoteController, 请求方法: visibleOnlyMe =================================== 
+2025-11-06 16:13:37.532 [http-nio-8087-exec-5] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-06 16:13:37.533 [http-nio-8087-exec-5] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985366349773275217(Long)
+2025-11-06 16:13:37.534 [http-nio-8087-exec-5] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-11-06 16:13:37.540 [http-nio-8087-exec-5] WARN  c.q.x.note.biz.exception.GlobalExceptionHandler - /note/visible/onlyme request fail, errorCode: NOTE-20002, errorMessage: 笔记不存在
+2025-11-06 16:13:37.542 [http-nio-8087-exec-5] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-06 16:14:30.799 [http-nio-8087-exec-6] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-06 16:14:30.799 [http-nio-8087-exec-6] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-06 16:14:30.800 [http-nio-8087-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记仅对自己可见], 入参: {"id":1985366349773275217}, 请求类: NoteController, 请求方法: visibleOnlyMe =================================== 
+2025-11-06 16:14:30.800 [http-nio-8087-exec-6] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-06 16:14:30.801 [http-nio-8087-exec-6] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985366349773275217(Long)
+2025-11-06 16:14:30.802 [http-nio-8087-exec-6] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-11-06 16:14:30.802 [http-nio-8087-exec-6] WARN  c.q.x.note.biz.exception.GlobalExceptionHandler - /note/visible/onlyme request fail, errorCode: NOTE-20002, errorMessage: 笔记不存在
+2025-11-06 16:14:30.803 [http-nio-8087-exec-6] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-06 16:15:55.637 [http-nio-8087-exec-8] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-06 16:15:55.638 [http-nio-8087-exec-8] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-06 16:15:55.638 [http-nio-8087-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记仅对自己可见], 入参: {"id":1985346827964121131}, 请求类: NoteController, 请求方法: visibleOnlyMe =================================== 
+2025-11-06 16:15:55.639 [http-nio-8087-exec-8] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-06 16:15:55.640 [http-nio-8087-exec-8] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985346827964121131(Long)
+2025-11-06 16:15:55.641 [http-nio-8087-exec-8] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-06 16:15:55.641 [http-nio-8087-exec-8] DEBUG c.q.x.n.b.d.m.NoteDOMapper.updateVisibleOnlyMe - ==>  Preparing: update t_note set visible = ?, update_time = ? where id = ? and `status` = 1
+2025-11-06 16:15:55.641 [http-nio-8087-exec-8] DEBUG c.q.x.n.b.d.m.NoteDOMapper.updateVisibleOnlyMe - ==> Parameters: 1(Integer), 2025-11-06T16:15:55.641675100(LocalDateTime), 1985346827964121131(Long)
+2025-11-06 16:15:55.644 [http-nio-8087-exec-8] DEBUG c.q.x.n.b.d.m.NoteDOMapper.updateVisibleOnlyMe - <==    Updates: 1
+2025-11-06 16:15:55.647 [http-nio-8087-exec-8] INFO  c.q.x.note.biz.service.impl.NoteServiceImpl - ====> MQ：删除笔记本地缓存发送成功...
+2025-11-06 16:15:55.648 [http-nio-8087-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记仅对自己可见], 耗时: 10ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-06 16:15:55.648 [http-nio-8087-exec-8] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-06 16:15:55.662 [ConsumeMessageThread_xiaohashu_group_2] INFO  c.q.x.n.biz.consumer.DeleteNoteLocalCacheConsumer - ## 消费者消费成功, noteId: 1985346827964121131
+2025-11-06 16:16:37.778 [http-nio-8087-exec-3] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-06 16:16:37.778 [http-nio-8087-exec-3] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-06 16:16:37.780 [http-nio-8087-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记仅对自己可见], 入参: {"id":1985366349773275217}, 请求类: NoteController, 请求方法: visibleOnlyMe =================================== 
+2025-11-06 16:16:37.780 [http-nio-8087-exec-3] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-06 16:16:37.780 [http-nio-8087-exec-3] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985366349773275217(Long)
+2025-11-06 16:16:37.782 [http-nio-8087-exec-3] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-11-06 16:16:37.783 [http-nio-8087-exec-3] WARN  c.q.x.note.biz.exception.GlobalExceptionHandler - /note/visible/onlyme request fail, errorCode: NOTE-20002, errorMessage: 笔记不存在
+2025-11-06 16:16:37.783 [http-nio-8087-exec-3] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-06 16:17:44.043 [http-nio-8087-exec-9] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-06 16:17:44.043 [http-nio-8087-exec-9] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-06 16:17:44.045 [http-nio-8087-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记仅对自己可见], 入参: {"id":1985366349773275217}, 请求类: NoteController, 请求方法: visibleOnlyMe =================================== 
+2025-11-06 16:17:44.046 [http-nio-8087-exec-9] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-06 16:17:44.047 [http-nio-8087-exec-9] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985366349773275217(Long)
+2025-11-06 16:17:44.048 [http-nio-8087-exec-9] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 0
+2025-11-06 16:17:44.048 [http-nio-8087-exec-9] WARN  c.q.x.note.biz.exception.GlobalExceptionHandler - /note/visible/onlyme request fail, errorCode: NOTE-20002, errorMessage: 笔记不存在
+2025-11-06 16:17:44.049 [http-nio-8087-exec-9] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-06 16:18:03.911 [http-nio-8087-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 11
+2025-11-06 16:18:03.912 [http-nio-8087-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 11
+2025-11-06 16:18:03.913 [http-nio-8087-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记仅对自己可见], 入参: {"id":1985346827964121131}, 请求类: NoteController, 请求方法: visibleOnlyMe =================================== 
+2025-11-06 16:18:03.913 [http-nio-8087-exec-4] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-06 16:18:03.917 [http-nio-8087-exec-4] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985346827964121131(Long)
+2025-11-06 16:18:03.920 [http-nio-8087-exec-4] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-06 16:18:03.920 [http-nio-8087-exec-4] WARN  c.q.x.note.biz.exception.GlobalExceptionHandler - /note/visible/onlyme request fail, errorCode: NOTE-20007, errorMessage: 您无法操作该笔记
+2025-11-06 16:18:03.921 [http-nio-8087-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 11

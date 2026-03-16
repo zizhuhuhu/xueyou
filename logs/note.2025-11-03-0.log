@@ -1,0 +1,1089 @@
+2025-11-03 11:31:31.452 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:31:31.498 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:31:32.966 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:31:32.975 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:31:32.976 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 11:31:33.488 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 11:31:33.489 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 11:31:33.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-11-03 11:31:33.651 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b69d402e-14cc-37d3-a967-92edfd7bfd0b
+2025-11-03 11:31:33.673 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 11:31:33.675 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 11:31:33.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-11-03 11:31:33.959 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 11:31:33.960 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 11:31:34.046 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 11:31:34.046 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1050 ms
+2025-11-03 11:31:34.204 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 11:31:34.430 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 11:31:34.599 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'noteController': Injection of resource dependencies failed
+2025-11-03 11:31:34.599 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-03 11:31:34.604 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-11-03 11:31:34.612 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-03 11:31:34.624 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-03 11:31:34.637 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'noteController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.note.biz.XiaohashuNoteBizApplication.main(XiaohashuNoteBizApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'noteServiceImpl': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:490)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'noteDOMapper' defined in file [E:\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\com\quanxiaoha\xiaohashu\note\biz\domain\mapper\NoteDOMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [E:\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\mapper\TopicDOMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1494)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1388)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:242)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [E:\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\mapper\TopicDOMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1479)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [E:\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\mapper\TopicDOMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 60 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [E:\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\mapper\TopicDOMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:700)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:577)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:720)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 61 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 98; columnNumber: 3; 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:262)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:85)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:697)
+	... 69 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型 "select" 必须由匹配的结束标记 "</select>" 终止。
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:260)
+	... 72 common frames omitted
+2025-11-03 11:32:57.734 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:32:57.786 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:32:59.290 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:32:59.300 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 11:32:59.300 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 11:32:59.757 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 11:32:59.758 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 11:32:59.769 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-11-03 11:32:59.896 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b69d402e-14cc-37d3-a967-92edfd7bfd0b
+2025-11-03 11:32:59.922 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 11:32:59.923 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 11:33:00.216 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-11-03 11:33:00.221 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 11:33:00.222 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 11:33:00.311 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 11:33:00.311 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 988 ms
+2025-11-03 11:33:00.453 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 11:33:00.675 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 11:33:00.899 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 11:33:00.934 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 11:33:02.401 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 11:33:03.909 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 11:33:03.931 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 11:33:03.980 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-03 11:33:03.983 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-03 11:33:03.987 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-11-03 11:33:03.993 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-03 11:33:04.006 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-03 11:33:04.014 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8086 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8086 or configure this application to listen on another port.
+
+2025-11-03 12:34:15.656 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:34:15.752 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:34:17.259 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:34:17.267 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:34:17.268 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 12:34:17.776 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 12:34:17.777 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 12:34:17.792 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-03 12:34:17.927 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b69d402e-14cc-37d3-a967-92edfd7bfd0b
+2025-11-03 12:34:17.954 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 12:34:17.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 12:34:18.246 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (http)
+2025-11-03 12:34:18.253 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 12:34:18.254 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 12:34:18.338 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 12:34:18.338 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1051 ms
+2025-11-03 12:34:18.521 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 12:34:18.759 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 12:34:19.016 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 12:34:19.063 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 12:34:20.562 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:34:22.055 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:34:22.078 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 12:34:22.130 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-03 12:34:22.133 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-03 12:34:22.137 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-11-03 12:34:22.146 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-03 12:34:22.158 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-03 12:34:22.167 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8086 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8086 or configure this application to listen on another port.
+
+2025-11-03 12:41:40.933 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:41:40.984 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:41:42.462 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:41:42.469 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:41:42.471 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 12:41:42.942 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 12:41:42.943 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 12:41:42.956 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-03 12:41:43.093 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b69d402e-14cc-37d3-a967-92edfd7bfd0b
+2025-11-03 12:41:43.118 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 12:41:43.120 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 12:41:43.371 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-03 12:41:43.377 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 12:41:43.379 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 12:41:43.461 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 12:41:43.462 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 970 ms
+2025-11-03 12:41:43.612 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 12:41:43.828 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 12:41:44.062 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 12:41:44.098 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 12:41:45.583 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:41:47.092 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:41:47.111 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 12:41:47.176 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 13510 (http) with context path ''
+2025-11-03 12:41:47.181 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:41:47.181 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-03 12:41:47.181 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-03 12:41:47.181 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-03 12:41:47.202 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-03 12:41:47.202 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-03 12:41:47.203 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-03 12:41:47.207 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-03 12:41:47.208 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-03 12:41:47.211 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-03 12:41:47.217 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of ece6ca9a-de16-4d4c-985d-46f9a56d46a6
+2025-11-03 12:41:47.234 [main] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-03 12:41:47.234 [main] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-03 12:41:47.235 [main] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-03 12:41:47.239 [main] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-03 12:41:47.266 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-03 12:41:48.152 [main] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762144907970_127.0.0.1_13511
+2025-11-03 12:41:48.153 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] Notify connected event to listeners.
+2025-11-03 12:41:48.154 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-03 12:41:48.154 [main] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-03 12:41:48.154 [main] INFO  com.alibaba.nacos.common.remote.client - [ece6ca9a-de16-4d4c-985d-46f9a56d46a6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1267/0x0000021b417b2870
+2025-11-03 12:41:48.155 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-note with instance Instance{instanceId='null', ip='192.168.134.1', port=13510, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-03 12:41:48.167 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 192.168.134.1:13510 register finished
+2025-11-03 12:41:49.378 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:41:49.384 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 10.315 seconds (process running for 11.0)
+2025-11-03 12:48:56.626 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:48:56.680 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:48:58.244 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:48:58.253 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:48:58.254 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 12:48:58.747 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 12:48:58.748 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 12:48:58.760 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-03 12:48:58.909 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b69d402e-14cc-37d3-a967-92edfd7bfd0b
+2025-11-03 12:48:58.936 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 12:48:58.938 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 12:48:59.217 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-03 12:48:59.224 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 12:48:59.224 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 12:48:59.317 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 12:48:59.317 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1039 ms
+2025-11-03 12:48:59.470 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 12:48:59.712 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 12:48:59.997 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 12:49:00.047 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 12:49:01.604 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:49:03.414 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:49:03.438 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 12:49:03.530 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 14111 (http) with context path ''
+2025-11-03 12:49:03.536 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 12:49:03.536 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-03 12:49:03.537 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-03 12:49:03.537 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-03 12:49:03.566 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-03 12:49:03.566 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-03 12:49:03.567 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-03 12:49:03.571 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-03 12:49:03.572 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-03 12:49:03.575 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-03 12:49:03.583 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 292adb98-da08-4034-aab2-c53fbbaf5d5a
+2025-11-03 12:49:03.604 [main] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-03 12:49:03.604 [main] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-03 12:49:03.607 [main] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-03 12:49:03.610 [main] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-03 12:49:03.647 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-03 12:49:04.869 [main] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762145344701_127.0.0.1_14113
+2025-11-03 12:49:04.869 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] Notify connected event to listeners.
+2025-11-03 12:49:04.869 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-03 12:49:04.869 [main] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-03 12:49:04.869 [main] INFO  com.alibaba.nacos.common.remote.client - [292adb98-da08-4034-aab2-c53fbbaf5d5a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1267/0x00000190817b1b48
+2025-11-03 12:49:04.870 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-note with instance Instance{instanceId='null', ip='192.168.134.1', port=14111, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-03 12:49:04.884 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 192.168.134.1:14111 register finished
+2025-11-03 12:49:06.205 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 12:49:06.213 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 11.632 seconds (process running for 12.458)
+2025-11-03 13:02:34.683 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:02:34.727 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:02:36.196 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:02:36.205 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:02:36.206 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 13:02:36.634 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 13:02:36.635 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 13:02:36.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-03 13:02:36.796 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b69d402e-14cc-37d3-a967-92edfd7bfd0b
+2025-11-03 13:02:36.820 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 13:02:36.821 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 13:02:37.068 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-03 13:02:37.074 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 13:02:37.074 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 13:02:37.160 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 13:02:37.160 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 934 ms
+2025-11-03 13:02:37.306 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 13:02:37.518 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 13:02:37.733 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 13:02:37.771 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 13:02:39.264 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 13:02:40.769 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 13:02:40.784 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 13:02:40.841 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 14730 (http) with context path ''
+2025-11-03 13:02:40.845 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:02:40.845 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-03 13:02:40.845 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-03 13:02:40.846 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-03 13:02:40.861 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-03 13:02:40.861 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-03 13:02:40.861 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-03 13:02:40.866 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-03 13:02:40.866 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-03 13:02:40.868 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-03 13:02:40.872 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of ea297b8b-555f-4303-9f8c-c615cccf8c72
+2025-11-03 13:02:40.885 [main] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-03 13:02:40.885 [main] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-03 13:02:40.886 [main] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-03 13:02:40.887 [main] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-03 13:02:40.910 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-03 13:02:41.656 [main] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762146161494_127.0.0.1_14731
+2025-11-03 13:02:41.656 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Notify connected event to listeners.
+2025-11-03 13:02:41.657 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-03 13:02:41.657 [main] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-03 13:02:41.657 [main] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1267/0x0000023a2a7b30b8
+2025-11-03 13:02:41.658 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-note with instance Instance{instanceId='null', ip='192.168.134.1', port=14730, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-03 13:02:41.669 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 192.168.134.1:14730 register finished
+2025-11-03 13:02:42.875 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 13:02:42.883 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 9.983 seconds (process running for 10.61)
+2025-11-03 13:08:18.444 [http-nio-auto-1-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-03 13:08:18.445 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-03 13:08:18.446 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-03 13:08:18.630 [http-nio-auto-1-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":0,"imgUris":["http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg"],"videoUri":null,"title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 13:08:18.723 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-distributed-id-generator, group:DEFAULT_GROUP, clusters: 
+2025-11-03 13:08:18.745 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> [{"ip":"192.168.134.1","port":14751,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-distributed-id-generator","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 13:08:18.757 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> [{"ip":"192.168.134.1","port":14751,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-distributed-id-generator","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 13:08:18.946 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-kv, group:DEFAULT_GROUP, clusters: 
+2025-11-03 13:08:18.951 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":14888,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 13:08:18.951 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":14888,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 13:08:19.396 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-11-03 13:08:19.567 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-11-03 13:08:19.593 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-11-03 13:08:19.604 [http-nio-auto-1-exec-1] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-11-03 13:08:19.623 [http-nio-auto-1-exec-1] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1985212419298820127(Long), 图文笔记测试标题(String), false(Boolean), null, 1(Long), 高分美剧推荐(String), false(Boolean), 0(Integer), http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg(String), null, 0(Integer), 2025-11-03T13:08:19.603597100(LocalDateTime), 2025-11-03T13:08:19.603597100(LocalDateTime), 1(Integer), 678702fa-92a6-4f4a-803b-533ba955b957(String)
+2025-11-03 13:08:19.708 [http-nio-auto-1-exec-1] ERROR c.q.x.note.biz.service.impl.NoteServiceImpl - ==> 笔记存储失败
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'creator_id' cannot be null
+### The error may exist in file [E:\xiaohashu\xiaohashu-note\xiaohashu-note-biz\target\classes\mapper\NoteDOMapper.xml]
+### The error may involve com.quanxiaoha.xiaohashu.note.biz.domain.mapper.NoteDOMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_note (id, title, is_content_empty,        creator_id, topic_id, topic_name,        is_top, `type`, img_uris, video_uri,        visible, create_time, update_time,        `status`, content_uuid)     values (?, ?, ?,        ?, ?, ?,        ?, ?, ?, ?,        ?, ?, ?,        ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'creator_id' cannot be null
+; Column 'creator_id' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:95)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy85.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.insert(Unknown Source)
+	at com.quanxiaoha.xiaohashu.note.biz.service.impl.NoteServiceImpl.publishNote(NoteServiceImpl.java:147)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController.publishNote(NoteController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController$$SpringCGLIB$$0.publishNote(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'creator_id' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3462)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1063)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:434)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:158)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy119.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 85 common frames omitted
+2025-11-03 13:08:19.761 [http-nio-auto-1-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 1136ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-03 13:08:19.944 [nacos-grpc-client-executor-127.0.0.1-95] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+2025-11-03 13:08:19.945 [nacos-grpc-client-executor-127.0.0.1-95] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+2025-11-03 13:08:19.951 [nacos-grpc-client-executor-127.0.0.1-96] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Receive server push request, request = NotifySubscriberRequest, requestId = 3
+2025-11-03 13:08:19.952 [nacos-grpc-client-executor-127.0.0.1-96] INFO  com.alibaba.nacos.common.remote.client - [ea297b8b-555f-4303-9f8c-c615cccf8c72] Ack server push request, request = NotifySubscriberRequest, requestId = 3
+2025-11-03 13:48:49.703 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:48:49.767 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:48:51.336 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:48:51.346 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:48:51.347 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 13:48:51.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 13:48:51.913 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 13:48:51.932 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-11-03 13:48:52.088 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=26eb2289-71a1-392d-919c-a4d8c555edbd
+2025-11-03 13:48:52.111 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 13:48:52.113 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 13:48:52.415 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-03 13:48:52.423 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 13:48:52.423 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 13:48:52.525 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 13:48:52.526 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1152 ms
+2025-11-03 13:48:52.712 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 13:48:52.970 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 13:48:53.271 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 13:48:53.307 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 13:48:54.790 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 13:48:56.614 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 13:48:56.640 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 13:48:56.731 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 4517 (http) with context path ''
+2025-11-03 13:48:56.739 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 13:48:56.739 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-03 13:48:56.740 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-03 13:48:56.740 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-03 13:48:56.766 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-03 13:48:56.767 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-03 13:48:56.767 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-03 13:48:56.770 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-03 13:48:56.770 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-03 13:48:56.773 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-03 13:48:56.781 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 2662a562-71f3-491d-82bc-086181124d72
+2025-11-03 13:48:56.806 [main] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-03 13:48:56.806 [main] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-03 13:48:56.806 [main] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-03 13:48:56.809 [main] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-03 13:48:56.851 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-03 13:48:58.492 [main] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762148938251_127.0.0.1_4518
+2025-11-03 13:48:58.493 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Notify connected event to listeners.
+2025-11-03 13:48:58.493 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-03 13:48:58.493 [main] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-03 13:48:58.494 [main] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1267/0x00000203017b4260
+2025-11-03 13:48:58.495 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-note with instance Instance{instanceId='null', ip='192.168.134.1', port=4517, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[2408:8411:a81a:b728:b582:f31c:30a:e3d1], preserved.register.source=SPRING_CLOUD}}
+2025-11-03 13:48:58.522 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 192.168.134.1:4517 register finished
+2025-11-03 13:49:00.154 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 13:49:00.164 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 12.379 seconds (process running for 13.322)
+2025-11-03 21:22:42.018 [http-nio-auto-1-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-03 21:22:42.026 [http-nio-auto-1-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-03 21:22:42.078 [http-nio-auto-1-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 51 ms
+2025-11-03 21:22:42.101 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-03 21:22:42.134 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-03 21:22:42.507 [http-nio-auto-1-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":0,"imgUris":["http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg"],"videoUri":null,"title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 21:22:42.586 [http-nio-auto-1-exec-4] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-distributed-id-generator, group:DEFAULT_GROUP, clusters: 
+2025-11-03 21:22:42.618 [http-nio-auto-1-exec-4] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> [{"ip":"192.168.134.1","port":14751,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-distributed-id-generator","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-03 21:22:42.627 [http-nio-auto-1-exec-4] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> [{"ip":"192.168.134.1","port":14751,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-distributed-id-generator","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-03 21:22:42.777 [http-nio-auto-1-exec-4] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-kv, group:DEFAULT_GROUP, clusters: 
+2025-11-03 21:22:42.781 [http-nio-auto-1-exec-4] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":14888,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-03 21:22:42.781 [http-nio-auto-1-exec-4] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":14888,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-03 21:22:43.121 [http-nio-auto-1-exec-4] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-11-03 21:22:43.170 [nacos-grpc-client-executor-127.0.0.1-1699] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Receive server push request, request = NotifySubscriberRequest, requestId = 6
+2025-11-03 21:22:43.171 [nacos-grpc-client-executor-127.0.0.1-1699] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Ack server push request, request = NotifySubscriberRequest, requestId = 6
+2025-11-03 21:22:43.250 [http-nio-auto-1-exec-4] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-11-03 21:22:43.278 [http-nio-auto-1-exec-4] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-11-03 21:22:43.285 [http-nio-auto-1-exec-4] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-11-03 21:22:43.306 [http-nio-auto-1-exec-4] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1985336838415450122(Long), 图文笔记测试标题(String), false(Boolean), 10(Long), 1(Long), 高分美剧推荐(String), false(Boolean), 0(Integer), http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg(String), null, 0(Integer), 2025-11-03T21:22:43.284604500(LocalDateTime), 2025-11-03T21:22:43.284604500(LocalDateTime), 1(Integer), 7e9bcc4e-6997-4375-8526-bc480ac0552a(String)
+2025-11-03 21:22:43.336 [http-nio-auto-1-exec-4] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - <==    Updates: 1
+2025-11-03 21:22:43.337 [http-nio-auto-1-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 839ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-03 21:22:43.354 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-03 21:22:43.368 [nacos-grpc-client-executor-127.0.0.1-1700] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Receive server push request, request = NotifySubscriberRequest, requestId = 7
+2025-11-03 21:22:43.368 [nacos-grpc-client-executor-127.0.0.1-1700] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+2025-11-03 21:26:46.711 [http-nio-auto-1-exec-2] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-03 21:26:46.711 [http-nio-auto-1-exec-2] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-03 21:26:46.713 [http-nio-auto-1-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":1,"imgUris":null,"videoUri":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 21:26:46.737 [http-nio-auto-1-exec-2] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-11-03 21:26:46.738 [http-nio-auto-1-exec-2] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-11-03 21:26:46.738 [http-nio-auto-1-exec-2] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-11-03 21:26:46.739 [http-nio-auto-1-exec-2] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-11-03 21:26:46.739 [http-nio-auto-1-exec-2] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1985337861871763515(Long), 图文笔记测试标题(String), false(Boolean), 10(Long), 1(Long), 高分美剧推荐(String), false(Boolean), 1(Integer), null, http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg(String), 0(Integer), 2025-11-03T21:26:46.738528800(LocalDateTime), 2025-11-03T21:26:46.738528800(LocalDateTime), 1(Integer), 734d7fc7-6beb-4d3f-940c-941a6dfc4caa(String)
+2025-11-03 21:26:46.742 [http-nio-auto-1-exec-2] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - <==    Updates: 1
+2025-11-03 21:26:46.742 [http-nio-auto-1-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 29ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-03 21:26:46.743 [http-nio-auto-1-exec-2] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-03 21:38:56.814 [http-nio-auto-1-exec-5] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-03 21:38:56.814 [http-nio-auto-1-exec-5] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-03 21:38:56.816 [http-nio-auto-1-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":1,"imgUris":null,"videoUri":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 21:38:56.984 [http-nio-auto-1-exec-5] WARN  c.q.x.note.biz.exception.GlobalExceptionHandler - /note/publish request fail, errorCode: NOTE-20001, errorMessage: 笔记发布失败
+2025-11-03 21:38:56.985 [http-nio-auto-1-exec-5] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-03 21:40:40.020 [nacos-grpc-client-executor-127.0.0.1-1931] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Receive server push request, request = NotifySubscriberRequest, requestId = 8
+2025-11-03 21:40:40.022 [nacos-grpc-client-executor-127.0.0.1-1931] INFO  com.alibaba.nacos.client.naming - removed ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":14888,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-03 21:40:40.022 [nacos-grpc-client-executor-127.0.0.1-1931] INFO  com.alibaba.nacos.client.naming - current ips:(0) service: DEFAULT_GROUP@@xiaohashu-kv -> []
+2025-11-03 21:40:40.023 [nacos-grpc-client-executor-127.0.0.1-1931] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Ack server push request, request = NotifySubscriberRequest, requestId = 8
+2025-11-03 21:40:52.640 [nacos-grpc-client-executor-127.0.0.1-1933] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Receive server push request, request = NotifySubscriberRequest, requestId = 9
+2025-11-03 21:40:52.640 [nacos-grpc-client-executor-127.0.0.1-1933] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":3350,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-03 21:40:52.641 [nacos-grpc-client-executor-127.0.0.1-1933] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":3350,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-03 21:40:52.641 [nacos-grpc-client-executor-127.0.0.1-1933] INFO  com.alibaba.nacos.common.remote.client - [2662a562-71f3-491d-82bc-086181124d72] Ack server push request, request = NotifySubscriberRequest, requestId = 9
+2025-11-03 21:41:01.189 [http-nio-auto-1-exec-8] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-03 21:41:01.189 [http-nio-auto-1-exec-8] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-03 21:41:01.191 [http-nio-auto-1-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":1,"imgUris":null,"videoUri":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 21:41:01.343 [http-nio-auto-1-exec-8] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-11-03 21:41:01.344 [http-nio-auto-1-exec-8] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-11-03 21:41:01.344 [http-nio-auto-1-exec-8] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-11-03 21:41:01.344 [http-nio-auto-1-exec-8] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-11-03 21:41:01.345 [http-nio-auto-1-exec-8] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1985341445787090969(Long), 图文笔记测试标题(String), false(Boolean), 10(Long), 1(Long), 高分美剧推荐(String), false(Boolean), 1(Integer), null, http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg(String), 0(Integer), 2025-11-03T21:41:01.344675100(LocalDateTime), 2025-11-03T21:41:01.344675100(LocalDateTime), 1(Integer), 3aa1f5e9-0b6d-423b-865e-87398f76c5fa(String)
+2025-11-03 21:41:01.347 [http-nio-auto-1-exec-8] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - <==    Updates: 1
+2025-11-03 21:41:01.347 [http-nio-auto-1-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 156ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-03 21:41:01.348 [http-nio-auto-1-exec-8] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-03 22:02:24.400 [http-nio-auto-1-exec-10] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 10
+2025-11-03 22:02:24.400 [http-nio-auto-1-exec-10] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 10
+2025-11-03 22:02:24.400 [http-nio-auto-1-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":1,"imgUris":null,"videoUri":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","title":"图文笔记测试标题","content":"图文笔记测试内容","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 22:02:24.419 [http-nio-auto-1-exec-10] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-11-03 22:02:24.419 [http-nio-auto-1-exec-10] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-11-03 22:02:24.421 [http-nio-auto-1-exec-10] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-11-03 22:02:24.421 [http-nio-auto-1-exec-10] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-11-03 22:02:24.423 [http-nio-auto-1-exec-10] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1985346827964121131(Long), 图文笔记测试标题(String), false(Boolean), 10(Long), 1(Long), 高分美剧推荐(String), false(Boolean), 1(Integer), null, http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg(String), 0(Integer), 2025-11-03T22:02:24.421895100(LocalDateTime), 2025-11-03T22:02:24.421895100(LocalDateTime), 1(Integer), 2fe58cc8-42f8-4d1b-8669-d79965ee46aa(String)
+2025-11-03 22:02:24.426 [http-nio-auto-1-exec-10] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - <==    Updates: 1
+2025-11-03 22:02:24.426 [http-nio-auto-1-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 26ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-03 22:02:24.426 [http-nio-auto-1-exec-10] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 10
+2025-11-03 23:02:05.592 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:02:05.629 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:02:07.050 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:02:07.058 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:02:07.058 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 23:02:07.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 23:02:07.436 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 23:02:07.449 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-03 23:02:07.570 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=35bd7208-b1f7-3d38-9615-4850c7edc51c
+2025-11-03 23:02:07.591 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 23:02:07.592 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 23:02:07.593 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 23:02:07.839 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-03 23:02:07.845 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 23:02:07.845 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 23:02:07.926 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 23:02:07.927 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 851 ms
+2025-11-03 23:02:08.098 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 23:02:08.296 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 23:02:08.504 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 23:02:08.533 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 23:02:08.546 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 23:02:09.967 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 23:02:11.417 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 23:02:11.442 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 23:02:11.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6268 (http) with context path ''
+2025-11-03 23:02:11.500 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:02:11.500 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-03 23:02:11.500 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-03 23:02:11.501 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-03 23:02:11.515 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-03 23:02:11.515 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-03 23:02:11.516 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-03 23:02:11.518 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-03 23:02:11.518 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-03 23:02:11.520 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-03 23:02:11.524 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f
+2025-11-03 23:02:11.536 [main] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-03 23:02:11.536 [main] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-03 23:02:11.536 [main] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-03 23:02:11.538 [main] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-03 23:02:11.560 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-03 23:02:12.270 [main] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762182132106_127.0.0.1_6269
+2025-11-03 23:02:12.271 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Notify connected event to listeners.
+2025-11-03 23:02:12.271 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-03 23:02:12.271 [main] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-03 23:02:12.271 [main] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1267/0x000002aa567ae858
+2025-11-03 23:02:12.272 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-note with instance Instance{instanceId='null', ip='192.168.134.1', port=6268, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-03 23:02:12.284 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 192.168.134.1:6268 register finished
+2025-11-03 23:02:13.482 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 23:02:13.487 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 9.497 seconds (process running for 9.998)
+2025-11-03 23:05:08.846 [http-nio-auto-1-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-03 23:05:08.847 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-03 23:05:08.848 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-03 23:05:08.859 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-03 23:05:08.865 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-03 23:05:08.992 [http-nio-auto-1-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记详情], 入参: {"id":1985336838415450122}, 请求类: NoteController, 请求方法: findNoteDetail =================================== 
+2025-11-03 23:05:09.017 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-03 23:05:09.135 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985336838415450122(Long)
+2025-11-03 23:05:09.159 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-03 23:05:09.236 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-user, group:DEFAULT_GROUP, clusters: 
+2025-11-03 23:05:09.253 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":6247,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:05:09.261 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":6247,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:05:09.631 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-kv, group:DEFAULT_GROUP, clusters: 
+2025-11-03 23:05:09.640 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":6307,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:05:09.640 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":6307,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:05:09.756 [nacos-grpc-client-executor-127.0.0.1-52] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Receive server push request, request = NotifySubscriberRequest, requestId = 12
+2025-11-03 23:05:09.757 [nacos-grpc-client-executor-127.0.0.1-52] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Ack server push request, request = NotifySubscriberRequest, requestId = 12
+2025-11-03 23:05:09.839 [http-nio-auto-1-exec-1] ERROR c.q.x.note.biz.exception.GlobalExceptionHandler - /note/detail request error, 
+java.lang.NullPointerException: Cannot invoke "com.quanxiaoha.xiaohashu.user.dto.resp.FindUserByIdRspDTO.getNickName()" because "findUserByIdRspDTO" is null
+	at com.quanxiaoha.xiaohashu.note.biz.service.impl.NoteServiceImpl.findNoteDetail(NoteServiceImpl.java:222)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController.findNoteDetail(NoteController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController$$SpringCGLIB$$0.findNoteDetail(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.quanxiaoha.xiaohashu.note.biz.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-03 23:05:09.854 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-03 23:05:10.180 [nacos-grpc-client-executor-127.0.0.1-53] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Receive server push request, request = NotifySubscriberRequest, requestId = 13
+2025-11-03 23:05:10.181 [nacos-grpc-client-executor-127.0.0.1-53] INFO  com.alibaba.nacos.common.remote.client - [eeb4b6c0-2b7e-4c8d-8103-8c03f7c9c71f] Ack server push request, request = NotifySubscriberRequest, requestId = 13
+2025-11-03 23:14:52.455 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:14:52.507 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:14:54.085 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:14:54.100 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:14:54.101 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - The following 1 profile is active: "dev"
+2025-11-03 23:14:54.771 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-03 23:14:54.773 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-03 23:14:54.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-11-03 23:14:54.924 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c8204edb-a2a1-3be5-a63d-b13fc18d05ae
+2025-11-03 23:14:54.950 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.distributed.id.generator.api.DistributedIdGeneratorFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 23:14:54.952 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 23:14:54.953 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.kv.api.KeyValueFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-03 23:14:55.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-03 23:14:55.230 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-03 23:14:55.231 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-03 23:14:55.329 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-03 23:14:55.330 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1202 ms
+2025-11-03 23:14:55.503 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-03 23:14:55.725 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-03 23:14:55.946 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-distributed-id-generator' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 23:14:55.984 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-kv' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 23:14:55.997 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-11-03 23:14:57.446 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 23:14:59.096 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 23:14:59.116 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-03 23:14:59.240 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6651 (http) with context path ''
+2025-11-03 23:14:59.249 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-03 23:14:59.249 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-03 23:14:59.249 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-03 23:14:59.250 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-03 23:14:59.280 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-03 23:14:59.280 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-03 23:14:59.280 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-03 23:14:59.285 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-03 23:14:59.286 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-03 23:14:59.290 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-03 23:14:59.301 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of c0498cb5-1204-4366-bf93-b4b1342ad940
+2025-11-03 23:14:59.343 [main] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-03 23:14:59.344 [main] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-03 23:14:59.346 [main] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-03 23:14:59.352 [main] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-03 23:14:59.393 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-03 23:15:00.588 [main] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762182900389_127.0.0.1_6657
+2025-11-03 23:15:00.590 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Notify connected event to listeners.
+2025-11-03 23:15:00.590 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-03 23:15:00.590 [main] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-03 23:15:00.590 [main] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1267/0x000002b0d67b0440
+2025-11-03 23:15:00.591 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-note with instance Instance{instanceId='null', ip='192.168.134.1', port=6651, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-03 23:15:00.607 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-note 192.168.134.1:6651 register finished
+2025-11-03 23:15:01.906 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-03 23:15:01.914 [main] INFO  c.q.xiaohashu.note.biz.XiaohashuNoteBizApplication - Started XiaohashuNoteBizApplication in 11.148 seconds (process running for 11.736)
+2025-11-03 23:15:21.424 [http-nio-auto-1-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-03 23:15:21.426 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-03 23:15:21.426 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-03 23:15:21.431 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-03 23:15:21.434 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-03 23:15:21.501 [http-nio-auto-1-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记详情], 入参: {"id":1985336838415450122}, 请求类: NoteController, 请求方法: findNoteDetail =================================== 
+2025-11-03 23:15:21.513 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-03 23:15:21.584 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985336838415450122(Long)
+2025-11-03 23:15:21.598 [http-nio-auto-1-exec-1] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-03 23:15:21.605 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 5
+2025-11-03 23:15:21.642 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-user, group:DEFAULT_GROUP, clusters: 
+2025-11-03 23:15:21.655 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":6671,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:15:21.660 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":6671,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:15:21.881 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 5
+2025-11-03 23:15:21.888 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-kv, group:DEFAULT_GROUP, clusters: 
+2025-11-03 23:15:21.893 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":6628,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:15:21.894 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.134.1","port":6628,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:15:22.023 [http-nio-auto-1-exec-1] ERROR c.q.x.note.biz.exception.GlobalExceptionHandler - /note/detail request error, 
+java.lang.NullPointerException: Cannot invoke "com.quanxiaoha.xiaohashu.user.dto.resp.FindUserByIdRspDTO.getNickName()" because "findUserByIdRspDTO" is null
+	at com.quanxiaoha.xiaohashu.note.biz.service.impl.NoteServiceImpl.findNoteDetail(NoteServiceImpl.java:222)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController.findNoteDetail(NoteController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController$$SpringCGLIB$$0.findNoteDetail(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.quanxiaoha.xiaohashu.note.biz.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-03 23:15:22.031 [http-nio-auto-1-exec-1] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-03 23:15:22.246 [nacos-grpc-client-executor-127.0.0.1-17] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Receive server push request, request = NotifySubscriberRequest, requestId = 15
+2025-11-03 23:15:22.246 [nacos-grpc-client-executor-127.0.0.1-17] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Ack server push request, request = NotifySubscriberRequest, requestId = 15
+2025-11-03 23:15:22.465 [nacos-grpc-client-executor-127.0.0.1-18] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Receive server push request, request = NotifySubscriberRequest, requestId = 16
+2025-11-03 23:15:22.465 [nacos-grpc-client-executor-127.0.0.1-18] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Ack server push request, request = NotifySubscriberRequest, requestId = 16
+2025-11-03 23:19:01.493 [http-nio-auto-1-exec-3] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 11
+2025-11-03 23:19:01.493 [http-nio-auto-1-exec-3] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 11
+2025-11-03 23:19:01.503 [http-nio-auto-1-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":1,"imgUris":null,"videoUri":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","title":"图文笔记测试标题11","content":"图文笔记测试内容11","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 23:19:01.504 [http-nio-auto-1-exec-3] INFO  c.q.x.note.biz.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 11
+2025-11-03 23:19:01.518 [http-nio-auto-1-exec-3] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-distributed-id-generator, group:DEFAULT_GROUP, clusters: 
+2025-11-03 23:19:01.528 [http-nio-auto-1-exec-3] INFO  com.alibaba.nacos.client.naming - init new ips(0) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> []
+2025-11-03 23:19:01.528 [http-nio-auto-1-exec-3] INFO  com.alibaba.nacos.client.naming - current ips:(0) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> []
+2025-11-03 23:19:01.531 [http-nio-auto-1-exec-3] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: xiaohashu-distributed-id-generator
+2025-11-03 23:19:01.532 [http-nio-auto-1-exec-3] WARN  o.s.c.o.l.FeignBlockingLoadBalancerClient - Load balancer does not contain an instance for the service xiaohashu-distributed-id-generator
+2025-11-03 23:19:01.535 [http-nio-auto-1-exec-3] ERROR c.q.x.note.biz.exception.GlobalExceptionHandler - /note/publish request error, 
+feign.FeignException$ServiceUnavailable: [503] during [GET] to [http://xiaohashu-distributed-id-generator/id/snowflake/get/test] [DistributedIdGeneratorFeignApi#getSnowflakeId(String)]: [Load balancer does not contain an instance for the service xiaohashu-distributed-id-generator]
+	at feign.FeignException.serverErrorStatus(FeignException.java:265)
+	at feign.FeignException.errorStatus(FeignException.java:206)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy94.getSnowflakeId(Unknown Source)
+	at com.quanxiaoha.xiaohashu.note.biz.rpc.DistributedIdGeneratorRpcService.getSnowflakeId(DistributedIdGeneratorRpcService.java:25)
+	at com.quanxiaoha.xiaohashu.note.biz.service.impl.NoteServiceImpl.publishNote(NoteServiceImpl.java:98)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController.publishNote(NoteController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.quanxiaoha.xiaohashu.note.biz.controller.NoteController$$SpringCGLIB$$0.publishNote(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.quanxiaoha.xiaohashu.note.biz.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-03 23:19:01.537 [http-nio-auto-1-exec-3] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 11
+2025-11-03 23:19:02.105 [nacos-grpc-client-executor-127.0.0.1-67] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Receive server push request, request = NotifySubscriberRequest, requestId = 17
+2025-11-03 23:19:02.105 [nacos-grpc-client-executor-127.0.0.1-67] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Ack server push request, request = NotifySubscriberRequest, requestId = 17
+2025-11-03 23:19:38.978 [nacos-grpc-client-executor-127.0.0.1-74] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Receive server push request, request = NotifySubscriberRequest, requestId = 18
+2025-11-03 23:19:38.979 [nacos-grpc-client-executor-127.0.0.1-74] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> [{"ip":"192.168.134.1","port":7689,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-distributed-id-generator","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:19:38.983 [nacos-grpc-client-executor-127.0.0.1-74] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-distributed-id-generator -> [{"ip":"192.168.134.1","port":7689,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-distributed-id-generator","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-11-03 23:19:38.983 [nacos-grpc-client-executor-127.0.0.1-74] INFO  com.alibaba.nacos.common.remote.client - [c0498cb5-1204-4366-bf93-b4b1342ad940] Ack server push request, request = NotifySubscriberRequest, requestId = 18
+2025-11-03 23:19:58.723 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 11
+2025-11-03 23:19:58.724 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 11
+2025-11-03 23:19:58.725 [http-nio-auto-1-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记发布], 入参: {"type":1,"imgUris":null,"videoUri":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","title":"图文笔记测试标题11","content":"图文笔记测试内容11","topicId":1}, 请求类: NoteController, 请求方法: publishNote =================================== 
+2025-11-03 23:19:58.725 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 11
+2025-11-03 23:19:58.781 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 11
+2025-11-03 23:19:58.809 [http-nio-auto-1-exec-4] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==>  Preparing: select name from t_topic where id = ?
+2025-11-03 23:19:58.811 [http-nio-auto-1-exec-4] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - ==> Parameters: 1(Long)
+2025-11-03 23:19:58.813 [http-nio-auto-1-exec-4] DEBUG c.q.x.n.b.d.m.TopicDOMapper.selectNameByPrimaryKey - <==      Total: 1
+2025-11-03 23:19:58.814 [http-nio-auto-1-exec-4] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==>  Preparing: insert into t_note (id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-11-03 23:19:58.822 [http-nio-auto-1-exec-4] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - ==> Parameters: 1985366349773275217(Long), 图文笔记测试标题11(String), false(Boolean), 11(Long), 1(Long), 高分美剧推荐(String), false(Boolean), 1(Integer), null, http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg(String), 0(Integer), 2025-11-03T23:19:58.814252(LocalDateTime), 2025-11-03T23:19:58.814252(LocalDateTime), 1(Integer), 953b52b0-4240-47e2-8619-3e4c856b35b7(String)
+2025-11-03 23:19:58.826 [http-nio-auto-1-exec-4] DEBUG c.q.x.note.biz.domain.mapper.NoteDOMapper.insert - <==    Updates: 1
+2025-11-03 23:19:58.827 [http-nio-auto-1-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记发布], 耗时: 102ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-03 23:19:58.829 [http-nio-auto-1-exec-4] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 11
+2025-11-03 23:32:25.607 [http-nio-auto-1-exec-6] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-03 23:32:25.607 [http-nio-auto-1-exec-6] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-03 23:32:25.610 [http-nio-auto-1-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [笔记详情], 入参: {"id":1985366349773275217}, 请求类: NoteController, 请求方法: findNoteDetail =================================== 
+2025-11-03 23:32:25.610 [http-nio-auto-1-exec-6] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==>  Preparing: select id, title, is_content_empty, creator_id, topic_id, topic_name, is_top, `type`, img_uris, video_uri, visible, create_time, update_time, `status`, content_uuid from t_note where id = ? and status = 1
+2025-11-03 23:32:25.611 [http-nio-auto-1-exec-6] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - ==> Parameters: 1985366349773275217(Long)
+2025-11-03 23:32:25.614 [http-nio-auto-1-exec-6] DEBUG c.q.x.n.b.d.mapper.NoteDOMapper.selectByPrimaryKey - <==      Total: 1
+2025-11-03 23:32:25.614 [http-nio-auto-1-exec-6] INFO  c.q.x.note.biz.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 5
+2025-11-03 23:32:25.644 [http-nio-auto-1-exec-6] INFO  c.q.x.note.biz.interceptor.FeignRequestInterceptor - ########## feign 请求设置请求头 userId: 5
+2025-11-03 23:32:25.671 [http-nio-auto-1-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [笔记详情], 耗时: 58ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":1985366349773275217,"type":1,"title":"图文笔记测试标题11","content":"图文笔记测试内容11","imgUris":null,"topicId":1,"topicName":"高分美剧推荐","creatorId":11,"creatorName":"小红薯4","avatar":null,"videoUri":"http://116.62.199.48:9000/weblog/c89cc6b66f0341c0b7854771ae063eac.jpg","updateTime":[2025,11,3,23,19,59],"visible":0}} =================================== 
+2025-11-03 23:32:25.673 [http-nio-auto-1-exec-6] INFO  c.q.x.note.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5

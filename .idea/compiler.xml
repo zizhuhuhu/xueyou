@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for xiaohashu" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/maven_repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="xiaohashu-count-biz" />
+        <module name="xiaohashu-auth" />
+        <module name="xiaohashu-oss-api" />
+        <module name="xiaohashu-count-api" />
+        <module name="xiaohashu-oss-biz" />
+        <module name="xiaoha-spring-boot-start-biz-operationlog" />
+        <module name="xiaohashu-note-biz" />
+        <module name="xiaoha-spring-boot-starter-biz-operationlog" />
+        <module name="xiaohashu-user-api" />
+        <module name="xiaohashu-user-relation-api" />
+        <module name="xiaohashu-distributed-id-generator-biz" />
+        <module name="xiaohashu-kv-biz" />
+        <module name="xiaoha-spring-boot-starter-biz-context" />
+        <module name="xiaoha-spring-boot-start-jackson" />
+        <module name="xiaoha-spring-boot-starter-jackson" />
+        <module name="xiaohashu-user-biz" />
+        <module name="xiaohashu-search" />
+        <module name="xiaoha-common" />
+        <module name="xiaohashu-distributed-id-generator-api" />
+        <module name="xiaohashu-kv-api" />
+        <module name="xiaoha-commom" />
+        <module name="xiaohashu-gateway" />
+        <module name="xiaohashu-user-relation-biz" />
+        <module name="xiaohashu-data-align" />
+        <module name="xiaohashu-note-api" />
+        <module name="xiaosashu-user-biz" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xiaohaahu-search" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

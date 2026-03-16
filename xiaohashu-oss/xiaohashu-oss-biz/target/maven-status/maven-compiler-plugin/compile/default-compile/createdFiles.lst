@@ -1,0 +1,14 @@
+com\quanxiaoha\xiaohashu\oss\biz\config\MinioProperties.class
+com\quanxiaoha\xiaohashu\oss\biz\service\impl\FileServiceImpl.class
+com\quanxiaoha\xiaohashu\oss\biz\service\FileService.class
+com\quanxiaoha\xiaohashu\oss\biz\factory\FileStrategyFactory.class
+com\quanxiaoha\xiaohashu\oss\biz\controller\TestController.class
+com\quanxiaoha\xiaohashu\oss\biz\enums\ResponseCodeEnum.class
+com\quanxiaoha\xiaohashu\oss\biz\strategy\impl\AliyunOssFileStrategy.class
+com\quanxiaoha\xiaohashu\oss\biz\strategy\FileStrategy.class
+com\quanxiaoha\xiaohashu\oss\biz\XiaohashuOssBizApplication.class
+com\quanxiaoha\xiaohashu\oss\biz\exception\GlobalExceptionHandler.class
+com\quanxiaoha\xiaohashu\oss\biz\config\MinioConfig.class
+com\quanxiaoha\xiaohashu\oss\biz\filter\HeaderUserId2ContextFilter.class
+com\quanxiaoha\xiaohashu\oss\biz\strategy\impl\MinioFileStrategy.class
+com\quanxiaoha\xiaohashu\oss\biz\controller\FileController.class

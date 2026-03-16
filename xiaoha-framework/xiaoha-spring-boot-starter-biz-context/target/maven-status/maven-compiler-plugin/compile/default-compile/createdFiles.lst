@@ -1,0 +1,5 @@
+com\quanxiaoha\framework\biz\context\config\ContextAutoConfiguration.class
+com\quanxiaoha\framework\biz\context\interceptor\FeignRequestInterceptor.class
+com\quanxiaoha\framework\biz\context\holder\LoginUserContextHolder.class
+com\quanxiaoha\framework\biz\context\filter\HeaderUserId2ContextFilter.class
+com\quanxiaoha\framework\biz\context\config\FeignContextAutoConfiguration.class

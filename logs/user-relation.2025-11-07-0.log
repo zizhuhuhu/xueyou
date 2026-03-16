@@ -1,0 +1,1136 @@
+2025-11-07 11:49:03.941 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:03.988 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:05.365 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:05.375 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:05.376 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-11-07 11:49:05.868 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-07 11:49:05.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-07 11:49:05.887 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-11-07 11:49:06.002 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2314065f-01f3-3b55-9174-c3cc399e3237
+2025-11-07 11:49:06.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.131 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.164 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.167 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.169 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.170 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$722/0x000001948147d1a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.171 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.176 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.177 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:06.339 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-07 11:49:06.347 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-07 11:49:06.347 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-07 11:49:06.437 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-07 11:49:06.438 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1046 ms
+2025-11-07 11:49:06.664 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-07 11:49:06.909 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-07 11:49:07.364 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-11-07 11:49:07.364 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-11-07 11:49:07.440 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-11-07 11:49:07.475 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-11-07 11:49:08.878 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 11:49:10.282 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 11:49:10.296 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-07 11:49:10.347 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3516 (http) with context path ''
+2025-11-07 11:49:10.351 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:10.352 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-07 11:49:10.352 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-07 11:49:10.353 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-07 11:49:10.367 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-07 11:49:10.368 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-07 11:49:10.368 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-07 11:49:10.371 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-07 11:49:10.371 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-07 11:49:10.373 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-07 11:49:10.378 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of f8ce18f0-fb78-4489-b373-db41415fcbe4
+2025-11-07 11:49:10.390 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-07 11:49:10.391 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-07 11:49:10.391 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-07 11:49:10.393 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-07 11:49:10.415 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:49:11.017 [main] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.start(RpcClient.java:363)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.start(NamingGrpcClientProxy.java:105)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.<init>(NamingGrpcClientProxy.java:98)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.<init>(NamingClientProxyDelegate.java:78)
+	at com.alibaba.nacos.client.naming.NacosNamingService.init(NacosNamingService.java:102)
+	at com.alibaba.nacos.client.naming.NacosNamingService.<init>(NacosNamingService.java:85)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.alibaba.nacos.api.naming.NamingFactory.createNamingService(NamingFactory.java:59)
+	at com.alibaba.nacos.api.NacosFactory.createNamingService(NacosFactory.java:77)
+	at com.alibaba.cloud.nacos.NacosServiceManager.createNewNamingService(NacosServiceManager.java:99)
+	at com.alibaba.cloud.nacos.NacosServiceManager.buildNamingService(NacosServiceManager.java:90)
+	at com.alibaba.cloud.nacos.NacosServiceManager.getNamingService(NacosServiceManager.java:46)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.namingService(NacosServiceRegistry.java:193)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:68)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:264)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:156)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:119)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:49)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:47)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:539)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener$3.run(DelayedClientCall.java:471)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.delayOrExecute(DelayedClientCall.java:435)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.onClose(DelayedClientCall.java:468)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9848
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-07 11:49:11.021 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-07 11:49:11.021 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:49:11.024 [main] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.start(RpcClient.java:363)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.start(NamingGrpcClientProxy.java:105)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.<init>(NamingGrpcClientProxy.java:98)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.<init>(NamingClientProxyDelegate.java:78)
+	at com.alibaba.nacos.client.naming.NacosNamingService.init(NacosNamingService.java:102)
+	at com.alibaba.nacos.client.naming.NacosNamingService.<init>(NacosNamingService.java:85)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.alibaba.nacos.api.naming.NamingFactory.createNamingService(NamingFactory.java:59)
+	at com.alibaba.nacos.api.NacosFactory.createNamingService(NacosFactory.java:77)
+	at com.alibaba.cloud.nacos.NacosServiceManager.createNewNamingService(NacosServiceManager.java:99)
+	at com.alibaba.cloud.nacos.NacosServiceManager.buildNamingService(NacosServiceManager.java:90)
+	at com.alibaba.cloud.nacos.NacosServiceManager.getNamingService(NacosServiceManager.java:46)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.namingService(NacosServiceRegistry.java:193)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:68)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:264)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:156)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:119)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:49)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:47)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:539)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener$3.run(DelayedClientCall.java:471)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.delayOrExecute(DelayedClientCall.java:435)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.onClose(DelayedClientCall.java:468)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9848
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-07 11:49:11.025 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-07 11:49:11.025 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:49:11.028 [main] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.start(RpcClient.java:363)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.start(NamingGrpcClientProxy.java:105)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.<init>(NamingGrpcClientProxy.java:98)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.<init>(NamingClientProxyDelegate.java:78)
+	at com.alibaba.nacos.client.naming.NacosNamingService.init(NacosNamingService.java:102)
+	at com.alibaba.nacos.client.naming.NacosNamingService.<init>(NacosNamingService.java:85)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.alibaba.nacos.api.naming.NamingFactory.createNamingService(NamingFactory.java:59)
+	at com.alibaba.nacos.api.NacosFactory.createNamingService(NacosFactory.java:77)
+	at com.alibaba.cloud.nacos.NacosServiceManager.createNewNamingService(NacosServiceManager.java:99)
+	at com.alibaba.cloud.nacos.NacosServiceManager.buildNamingService(NacosServiceManager.java:90)
+	at com.alibaba.cloud.nacos.NacosServiceManager.getNamingService(NacosServiceManager.java:46)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.namingService(NacosServiceRegistry.java:193)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:68)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:264)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:156)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:119)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:49)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:47)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:539)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener$3.run(DelayedClientCall.java:471)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.delayOrExecute(DelayedClientCall.java:435)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.onClose(DelayedClientCall.java:468)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9848
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-07 11:49:11.028 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2025-11-07 11:49:11.029 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:49:11.029 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-07 11:49:11.029 [main] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1284/0x0000019481854650
+2025-11-07 11:49:11.030 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user-relation with instance Instance{instanceId='null', ip='192.168.134.1', port=3516, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-07 11:49:11.031 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:539)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener$3.run(DelayedClientCall.java:471)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.delayOrExecute(DelayedClientCall.java:435)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.onClose(DelayedClientCall.java:468)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	... 3 common frames omitted
+Caused by: com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9848
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-07 11:49:11.132 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:49:11.132 [main] ERROR com.alibaba.nacos.common.remote.client - Send request fail, request = InstanceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:STARTING
+2025-11-07 11:49:11.136 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:539)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	... 3 common frames omitted
+Caused by: com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9848
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-07 11:49:11.136 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Fail to connect server, after trying 1 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-11-07 11:49:11.232 [main] ERROR com.alibaba.nacos.common.remote.client - Send request fail, request = InstanceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:STARTING
+2025-11-07 11:49:11.333 [main] ERROR com.alibaba.nacos.common.remote.client - Send request fail, request = InstanceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:STARTING
+2025-11-07 11:49:11.337 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:49:11.340 [main] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, xiaohashu-user-relation register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='127.0.0.1:8848', username='', password='', endpoint='', namespace='xiaohashu', watchDelay=30000, logName='', service='xiaohashu-user-relation', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.134.1', networkInterface='', port=3516, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, instanceEnabled=true, ephemeral=true, failureToleranceEnabled=false}, ipDeleteTimeout=null, failFast=true}},
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:643)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:623)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:357)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doRegisterService(NamingGrpcClientProxy.java:210)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.registerService(NamingGrpcClientProxy.java:124)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.registerService(NamingClientProxyDelegate.java:98)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:143)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:75)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:264)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:156)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:119)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:49)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:47)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+2025-11-07 11:49:11.341 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-07 11:49:11.342 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:539)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener$3.run(DelayedClientCall.java:471)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.delayOrExecute(DelayedClientCall.java:435)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.onClose(DelayedClientCall.java:468)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	... 3 common frames omitted
+Caused by: com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9848
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-07 11:49:11.342 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Fail to connect server, after trying 2 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-11-07 11:49:11.342 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-11-07 11:49:11.342 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-11-07 11:49:11.643 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:49:11.646 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:566)
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:445)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at com.alibaba.nacos.shaded.io.grpc.Status.asRuntimeException(Status.java:539)
+	at com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener$3.run(DelayedClientCall.java:471)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.delayOrExecute(DelayedClientCall.java:435)
+	at com.alibaba.nacos.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.onClose(DelayedClientCall.java:468)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723)
+	at com.alibaba.nacos.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at com.alibaba.nacos.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	... 3 common frames omitted
+Caused by: com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:9848
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at com.alibaba.nacos.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-11-07 11:49:11.646 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Fail to connect server, after trying 3 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-11-07 11:49:11.663 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-11-07 11:49:11.663 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-11-07 11:49:11.663 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-11-07 11:49:11.663 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-11-07 11:49:11.664 [main] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-11-07 11:49:11.664 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-11-07 11:49:11.664 [main] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-11-07 11:49:11.664 [main] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@d62feaf[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-11-07 11:49:11.664 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3093161a[Running, pool size = 26, active threads = 0, queued tasks = 0, completed tasks = 26]
+2025-11-07 11:49:11.664 [main] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@73a88711[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 0]
+2025-11-07 11:49:11.664 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [f8ce18f0-fb78-4489-b373-db41415fcbe4] Client is shutdown, stop reconnect to server
+2025-11-07 11:49:11.664 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-11-07 11:49:11.665 [main] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-11-07 11:49:11.665 [main] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-11-07 11:49:11.694 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-11-07 11:49:11.695 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-11-07 11:49:11.699 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2025-11-07 11:49:11.718 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-07 11:49:11.729 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-07 11:49:11.744 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:587)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.XiaohashuUserRelationBizApplication.main(XiaohashuUserRelationBizApplication.java:14)
+Caused by: java.lang.reflect.UndeclaredThrowableException: null
+	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:83)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:264)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:156)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:119)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:49)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:47)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 13 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:643)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:623)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:357)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doRegisterService(NamingGrpcClientProxy.java:210)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.registerService(NamingGrpcClientProxy.java:124)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.registerService(NamingClientProxyDelegate.java:98)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:143)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:75)
+	... 25 common frames omitted
+2025-11-07 11:49:14.775 [Thread-14] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-11-07 11:49:54.867 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:54.914 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:56.279 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:56.287 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:49:56.288 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-11-07 11:49:56.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-07 11:49:56.827 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-07 11:49:56.874 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-11-07 11:49:57.003 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2314065f-01f3-3b55-9174-c3cc399e3237
+2025-11-07 11:49:57.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.125 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.156 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.158 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$722/0x000002515447bcf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.161 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.171 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.171 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 11:49:57.327 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-07 11:49:57.336 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-07 11:49:57.337 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-07 11:49:57.430 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-07 11:49:57.430 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1127 ms
+2025-11-07 11:49:57.656 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-07 11:49:57.855 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-07 11:49:58.293 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-11-07 11:49:58.293 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-11-07 11:49:58.363 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-11-07 11:49:58.397 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-11-07 11:49:59.805 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 11:50:01.229 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 11:50:01.246 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-07 11:50:01.295 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 3584 (http) with context path ''
+2025-11-07 11:50:01.299 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 11:50:01.300 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-07 11:50:01.300 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-07 11:50:01.300 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-07 11:50:01.316 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-07 11:50:01.316 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-07 11:50:01.317 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-07 11:50:01.319 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-07 11:50:01.320 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-07 11:50:01.321 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-07 11:50:01.326 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 04fd37c0-742f-4b37-87ba-8afcd6dfd171
+2025-11-07 11:50:01.338 [main] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-07 11:50:01.338 [main] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-07 11:50:01.338 [main] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-07 11:50:01.340 [main] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-07 11:50:01.359 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 11:50:02.103 [main] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762487401919_127.0.0.1_3585
+2025-11-07 11:50:02.103 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Notify connected event to listeners.
+2025-11-07 11:50:02.104 [main] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-07 11:50:02.104 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-07 11:50:02.104 [main] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1285/0x000002515487d638
+2025-11-07 11:50:02.105 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user-relation with instance Instance{instanceId='null', ip='192.168.134.1', port=3584, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-07 11:50:02.130 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 192.168.134.1:3584 register finished
+2025-11-07 11:50:03.276 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 11:50:03.286 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 9.963 seconds (process running for 10.491)
+2025-11-07 11:54:08.288 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-07 11:54:08.292 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-11-07 11:54:08.305 [http-nio-auto-1-exec-1] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 12
+2025-11-07 11:54:08.306 [http-nio-auto-1-exec-1] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 12
+2025-11-07 11:54:08.439 [http-nio-auto-1-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":11}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-11-07 11:54:08.569 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-user, group:DEFAULT_GROUP, clusters: 
+2025-11-07 11:54:08.593 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":3601,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-07 11:54:08.605 [http-nio-auto-1-exec-1] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":3601,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-07 11:54:09.142 [nacos-grpc-client-executor-127.0.0.1-81] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Receive server push request, request = NotifySubscriberRequest, requestId = 2
+2025-11-07 11:54:09.143 [nacos-grpc-client-executor-127.0.0.1-81] INFO  com.alibaba.nacos.common.remote.client - [04fd37c0-742f-4b37-87ba-8afcd6dfd171] Ack server push request, request = NotifySubscriberRequest, requestId = 2
+2025-11-07 11:54:09.492 [http-nio-auto-1-exec-1] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> 开始发送关注操作 MQ, 消息体: FollowUserMqDTO(userId=12, followUserId=11, createTime=2025-11-07T11:54:08.934349900)
+2025-11-07 11:54:09.496 [http-nio-auto-1-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [关注用户], 耗时: 1061ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-07 11:54:09.511 [http-nio-auto-1-exec-1] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 12
+2025-11-07 11:54:09.575 [ConsumeMessageThread_xiaohashu_group_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":12,"followUserId":11,"createTime":[2025,11,7,11,54,8,934349900]}, tags: Follow
+2025-11-07 11:54:09.603 [NettyClientPublicExecutor_1] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001247863947C6B2173FCFD0000, offsetMsgId=C0A8170100002A9F00000000000026D6, messageQueue=MessageQueue [topic=FollowUnfollowTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=6]
+2025-11-07 11:54:09.623 [ConsumeMessageThread_xiaohashu_group_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：true
+2025-11-07 11:55:23.489 [http-nio-auto-1-exec-3] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 12
+2025-11-07 11:55:23.489 [http-nio-auto-1-exec-3] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 12
+2025-11-07 11:55:23.490 [http-nio-auto-1-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":11}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-11-07 11:55:23.517 [http-nio-auto-1-exec-3] WARN  c.q.x.u.r.biz.exception.GlobalExceptionHandler - /relation/follow request fail, errorCode: RELATION-20004, errorMessage: 您已经关注了该用户
+2025-11-07 11:55:23.519 [http-nio-auto-1-exec-3] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 12
+2025-11-07 12:05:08.862 [http-nio-auto-1-exec-6] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-07 12:05:08.862 [http-nio-auto-1-exec-6] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-07 12:05:08.863 [http-nio-auto-1-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [关注用户], 入参: {"followUserId":11}, 请求类: RelationController, 请求方法: follow =================================== 
+2025-11-07 12:05:08.873 [http-nio-auto-1-exec-6] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> 开始发送关注操作 MQ, 消息体: FollowUserMqDTO(userId=5, followUserId=11, createTime=2025-11-07T12:05:08.868916200)
+2025-11-07 12:05:08.874 [http-nio-auto-1-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [关注用户], 耗时: 12ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-07 12:05:08.875 [http-nio-auto-1-exec-6] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-07 12:05:08.878 [NettyClientPublicExecutor_2] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F000001247863947C6B217E0C8A0001, offsetMsgId=C0A8170100002A9F0000000000002871, messageQueue=MessageQueue [topic=FollowUnfollowTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=7]
+2025-11-07 12:05:08.886 [ConsumeMessageThread_xiaohashu_group_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"followUserId":11,"createTime":[2025,11,7,12,5,8,868916200]}, tags: Follow
+2025-11-07 12:05:08.890 [ConsumeMessageThread_xiaohashu_group_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：true
+2025-11-07 12:22:49.397 [http-nio-auto-1-exec-8] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-07 12:22:49.397 [http-nio-auto-1-exec-8] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-07 12:22:49.410 [http-nio-auto-1-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户粉丝列表], 入参: {"userId":27,"pageNo":1}, 请求类: RelationController, 请求方法: findFansList =================================== 
+2025-11-07 12:22:49.430 [http-nio-auto-1-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户粉丝列表], 耗时: 19ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null,"pageNo":1,"totalCount":0,"pageSize":10,"totalPage":0} =================================== 
+2025-11-07 12:22:49.433 [http-nio-auto-1-exec-8] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-07 12:23:00.239 [http-nio-auto-1-exec-9] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-07 12:23:00.239 [http-nio-auto-1-exec-9] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-07 12:23:00.242 [http-nio-auto-1-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户粉丝列表], 入参: {"userId":11,"pageNo":1}, 请求类: RelationController, 请求方法: findFansList =================================== 
+2025-11-07 12:23:00.527 [http-nio-auto-1-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户粉丝列表], 耗时: 284ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"userId":5,"avatar":"http://192.168.134.128:9000/xiaohashu/ad8caf361e794073a5f304859ac0a17c.png","nickname":"朱艳梅","fansTotal":0,"noteTotal":0},{"userId":6,"avatar":null,"nickname":"犬小哈","fansTotal":0,"noteTotal":0},{"userId":12,"avatar":null,"nickname":"小红薯10100","fansTotal":0,"noteTotal":0}],"pageNo":1,"totalCount":3,"pageSize":10,"totalPage":1} =================================== 
+2025-11-07 12:23:00.529 [http-nio-auto-1-exec-9] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-07 12:24:16.721 [http-nio-auto-1-exec-10] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-07 12:24:16.721 [http-nio-auto-1-exec-10] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-07 12:24:16.722 [http-nio-auto-1-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [查询用户粉丝列表], 入参: {"userId":11,"pageNo":1}, 请求类: RelationController, 请求方法: findFansList =================================== 
+2025-11-07 12:24:16.745 [http-nio-auto-1-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [查询用户粉丝列表], 耗时: 23ms, 出参: {"success":true,"message":null,"errorCode":null,"data":[{"userId":5,"avatar":"http://192.168.134.128:9000/xiaohashu/ad8caf361e794073a5f304859ac0a17c.png","nickname":"朱艳梅","fansTotal":0,"noteTotal":0},{"userId":12,"avatar":null,"nickname":"小红薯10100","fansTotal":0,"noteTotal":0},{"userId":6,"avatar":null,"nickname":"犬小哈","fansTotal":0,"noteTotal":0}],"pageNo":1,"totalCount":3,"pageSize":10,"totalPage":1} =================================== 
+2025-11-07 12:24:16.746 [http-nio-auto-1-exec-10] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-07 14:00:38.797 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 14:00:38.844 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 14:00:40.299 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 14:00:40.308 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 14:00:40.309 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-11-07 14:00:40.786 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-07 14:00:40.788 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-07 14:00:40.803 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-11-07 14:00:40.911 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2314065f-01f3-3b55-9174-c3cc399e3237
+2025-11-07 14:00:40.936 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.021 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.065 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.066 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.067 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$722/0x0000027b8147c3e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.068 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.074 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.074 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 14:00:41.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-07 14:00:41.230 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-07 14:00:41.230 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-07 14:00:41.324 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-07 14:00:41.324 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 997 ms
+2025-11-07 14:00:41.528 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-07 14:00:41.734 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-07 14:00:41.924 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-11-07 14:00:42.214 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_groupFollowUnfollowTopic', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-11-07 14:00:42.214 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-11-07 14:00:42.299 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-11-07 14:00:43.678 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 14:00:43.853 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":6,"followUserId":12,"createTime":[2025,11,6,15,8,45,182314400]}, tags: Follow
+2025-11-07 14:00:43.853 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_3] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":6,"unfollowUserId":11,"createTime":[2025,11,6,18,53,25,37827700]}, tags: Unfollow
+2025-11-07 14:00:43.853 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":6,"followUserId":12,"createTime":[2025,11,6,15,14,7,534703000]}, tags: Follow
+2025-11-07 14:00:43.994 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：true
+2025-11-07 14:00:44.040 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_1] ERROR c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - 
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6-12' for key 'uk_user_id_following_user_id'
+### The error may exist in file [E:\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FollowingDOMapper.xml]
+### The error may involve com.quanxiaoha.xiaohashu.user.relation.biz.domain.mapper.FollowingDOMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_following (id, user_id, following_user_id,       create_time)     values (?, ?, ?,       ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6-12' for key 'uk_user_id_following_user_id'
+; Duplicate entry '6-12' for key 'uk_user_id_following_user_id'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:253)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.insert(Unknown Source)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.lambda$handleFollowTagMessage$0(FollowUnfollowConsumer.java:101)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.handleFollowTagMessage(FollowUnfollowConsumer.java:97)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.onMessage(FollowUnfollowConsumer.java:73)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.onMessage(FollowUnfollowConsumer.java:42)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.handleMessage(DefaultRocketMQListenerContainer.java:461)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.access$100(DefaultRocketMQListenerContainer.java:71)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer$DefaultMessageListenerOrderly.consumeMessage(DefaultRocketMQListenerContainer.java:444)
+	at org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService$ConsumeRequest.run(ConsumeMessageOrderlyService.java:498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6-12' for key 'uk_user_id_following_user_id'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3462)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1063)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:434)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:158)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 20 common frames omitted
+2025-11-07 14:00:44.043 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：false
+2025-11-07 14:00:44.071 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"unfollowUserId":11,"createTime":[2025,11,6,16,53,19,619966700]}, tags: Unfollow
+2025-11-07 14:00:44.209 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"unfollowUserId":11,"createTime":[2025,11,6,18,34,55,975736100]}, tags: Unfollow
+2025-11-07 14:00:44.215 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"unfollowUserId":11,"createTime":[2025,11,6,19,2,35,993367400]}, tags: Unfollow
+2025-11-07 14:00:44.220 [NettyClientPublicExecutor_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFB80003, offsetMsgId=C0A8170100002A9F0000000000002A0A, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=2], queueOffset=0]
+2025-11-07 14:00:44.222 [NettyClientPublicExecutor_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFB90005, offsetMsgId=C0A8170100002A9F0000000000002CE2, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=2], queueOffset=0]
+2025-11-07 14:00:44.223 [NettyClientPublicExecutor_3] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFB40000, offsetMsgId=C0A8170100002A9F0000000000002B76, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=3], queueOffset=0]
+2025-11-07 14:00:44.223 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":6,"followUserId":11,"createTime":[2025,11,6,15,30,19,375727200]}, tags: Follow
+2025-11-07 14:00:44.224 [NettyClientPublicExecutor_4] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFB50001, offsetMsgId=C0A8170100002A9F0000000000002E49, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=0]
+2025-11-07 14:00:44.224 [NettyClientPublicExecutor_5] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFB80004, offsetMsgId=C0A8170100002A9F0000000000002FB5, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=2], queueOffset=1]
+2025-11-07 14:00:44.225 [NettyClientPublicExecutor_6] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFBF0007, offsetMsgId=C0A8170100002A9F000000000000311C, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=1]
+2025-11-07 14:00:44.226 [NettyClientPublicExecutor_7] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFBF0006, offsetMsgId=C0A8170100002A9F0000000000003288, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=0], queueOffset=0]
+2025-11-07 14:00:44.226 [NettyClientPublicExecutor_8] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFBF0008, offsetMsgId=C0A8170100002A9F00000000000033EF, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=2], queueOffset=1]
+2025-11-07 14:00:44.227 [NettyClientPublicExecutor_9] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFBF0009, offsetMsgId=C0A8170100002A9F000000000000355B, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=0]
+2025-11-07 14:00:44.227 [NettyClientPublicExecutor_10] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFB70002, offsetMsgId=C0A8170100002A9F00000000000036C2, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=0], queueOffset=1]
+2025-11-07 14:00:44.229 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：true
+2025-11-07 14:00:44.232 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":6,"followUserId":5,"createTime":[2025,11,6,15,55,33,319443000]}, tags: Follow
+2025-11-07 14:00:44.235 [NettyClientPublicExecutor_11] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFC8000A, offsetMsgId=C0A8170100002A9F0000000000003829, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=3], queueOffset=1]
+2025-11-07 14:00:44.235 [NettyClientPublicExecutor_12] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFC9000B, offsetMsgId=C0A8170100002A9F0000000000003995, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=1]
+2025-11-07 14:00:44.235 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] ERROR c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - 
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6-5' for key 'uk_user_id_following_user_id'
+### The error may exist in file [E:\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FollowingDOMapper.xml]
+### The error may involve com.quanxiaoha.xiaohashu.user.relation.biz.domain.mapper.FollowingDOMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_following (id, user_id, following_user_id,       create_time)     values (?, ?, ?,       ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6-5' for key 'uk_user_id_following_user_id'
+; Duplicate entry '6-5' for key 'uk_user_id_following_user_id'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:253)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.insert(Unknown Source)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.lambda$handleFollowTagMessage$0(FollowUnfollowConsumer.java:101)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.handleFollowTagMessage(FollowUnfollowConsumer.java:97)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.onMessage(FollowUnfollowConsumer.java:73)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.onMessage(FollowUnfollowConsumer.java:42)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.handleMessage(DefaultRocketMQListenerContainer.java:461)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.access$100(DefaultRocketMQListenerContainer.java:71)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer$DefaultMessageListenerOrderly.consumeMessage(DefaultRocketMQListenerContainer.java:444)
+	at org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService$ConsumeRequest.run(ConsumeMessageOrderlyService.java:498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '6-5' for key 'uk_user_id_following_user_id'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3462)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1063)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:434)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:158)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 20 common frames omitted
+2025-11-07 14:00:44.237 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：false
+2025-11-07 14:00:44.238 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"followUserId":11,"createTime":[2025,11,6,16,38,56,685511200]}, tags: Follow
+2025-11-07 14:00:44.241 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：true
+2025-11-07 14:00:44.245 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"unfollowUserId":11,"createTime":[2025,11,6,18,41,8,763386000]}, tags: Unfollow
+2025-11-07 14:00:44.248 [NettyClientPublicExecutor_13] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFD5000C, offsetMsgId=C0A8170100002A9F0000000000003AFC, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=3], queueOffset=2]
+2025-11-07 14:00:44.248 [NettyClientPublicExecutor_14] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFD6000D, offsetMsgId=C0A8170100002A9F0000000000003C68, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=3], queueOffset=0]
+2025-11-07 14:00:44.253 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"unfollowUserId":11,"createTime":[2025,11,6,19,8,19,715286700]}, tags: Unfollow
+2025-11-07 14:00:44.255 [NettyClientPublicExecutor_15] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFDC000E, offsetMsgId=C0A8170100002A9F0000000000003DCF, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=2]
+2025-11-07 14:00:44.255 [NettyClientPublicExecutor_16] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFDD000F, offsetMsgId=C0A8170100002A9F0000000000003F3B, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=2]
+2025-11-07 14:00:44.257 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":12,"followUserId":11,"createTime":[2025,11,7,11,54,8,934349900]}, tags: Follow
+2025-11-07 14:00:44.260 [NettyClientPublicExecutor_1] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFE10011, offsetMsgId=C0A8170100002A9F00000000000040A2, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=2], queueOffset=2]
+2025-11-07 14:00:44.260 [NettyClientPublicExecutor_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFE10010, offsetMsgId=C0A8170100002A9F0000000000004209, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=0], queueOffset=0]
+2025-11-07 14:00:44.261 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] ERROR c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - 
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12-11' for key 'uk_user_id_following_user_id'
+### The error may exist in file [E:\xiaohashu\xiaohashu-user-relation\xiaohashu-user-relation-biz\target\classes\mapper\FollowingDOMapper.xml]
+### The error may involve com.quanxiaoha.xiaohashu.user.relation.biz.domain.mapper.FollowingDOMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into t_following (id, user_id, following_user_id,       create_time)     values (?, ?, ?,       ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12-11' for key 'uk_user_id_following_user_id'
+; Duplicate entry '12-11' for key 'uk_user_id_following_user_id'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:253)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:142)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.insert(Unknown Source)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.lambda$handleFollowTagMessage$0(FollowUnfollowConsumer.java:101)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.handleFollowTagMessage(FollowUnfollowConsumer.java:97)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.onMessage(FollowUnfollowConsumer.java:73)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.consumer.FollowUnfollowConsumer.onMessage(FollowUnfollowConsumer.java:42)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.handleMessage(DefaultRocketMQListenerContainer.java:461)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer.access$100(DefaultRocketMQListenerContainer.java:71)
+	at org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer$DefaultMessageListenerOrderly.consumeMessage(DefaultRocketMQListenerContainer.java:444)
+	at org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService$ConsumeRequest.run(ConsumeMessageOrderlyService.java:498)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12-11' for key 'uk_user_id_following_user_id'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3462)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_execute(FilterAdapter.java:1063)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:434)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:3460)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:158)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:483)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 20 common frames omitted
+2025-11-07 14:00:44.263 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：false
+2025-11-07 14:00:44.263 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"followUserId":11,"createTime":[2025,11,7,12,5,8,868916200]}, tags: Follow
+2025-11-07 14:00:44.267 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_2] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ## 数据库添加记录结果：true
+2025-11-07 14:00:44.271 [NettyClientPublicExecutor_3] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFED0013, offsetMsgId=C0A8170100002A9F00000000000044E1, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=3], queueOffset=1]
+2025-11-07 14:00:44.271 [NettyClientPublicExecutor_4] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21E7DFED0012, offsetMsgId=C0A8170100002A9F0000000000004375, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=3], queueOffset=3]
+2025-11-07 14:00:45.127 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 14:00:45.142 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-07 14:00:45.198 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8049 (http) with context path ''
+2025-11-07 14:00:45.203 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 14:00:45.203 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-07 14:00:45.203 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-07 14:00:45.203 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-07 14:00:45.218 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-07 14:00:45.218 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-07 14:00:45.219 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-07 14:00:45.221 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-07 14:00:45.221 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-07 14:00:45.223 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-07 14:00:45.228 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 9dc40e10-94d5-4f25-ac1c-19fd005ba216
+2025-11-07 14:00:45.241 [main] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-07 14:00:45.241 [main] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-07 14:00:45.242 [main] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-07 14:00:45.243 [main] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-07 14:00:45.245 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 14:00:45.932 [main] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762495245780_127.0.0.1_8050
+2025-11-07 14:00:45.932 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Notify connected event to listeners.
+2025-11-07 14:00:45.933 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-07 14:00:45.933 [main] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-07 14:00:45.933 [main] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1415/0x0000027b8192af20
+2025-11-07 14:00:45.934 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user-relation with instance Instance{instanceId='null', ip='192.168.134.1', port=8049, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-07 14:00:45.945 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 192.168.134.1:8049 register finished
+2025-11-07 14:00:47.121 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 14:00:47.127 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 9.939 seconds (process running for 10.663)
+2025-11-07 14:05:09.118 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-07 14:05:09.124 [http-nio-auto-1-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2025-11-07 14:05:09.135 [http-nio-auto-1-exec-1] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-07 14:05:09.136 [http-nio-auto-1-exec-1] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-07 14:05:09.193 [http-nio-auto-1-exec-1] ERROR c.q.x.u.r.biz.exception.GlobalExceptionHandler - /relation/unfollow request error, 
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:163)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.quanxiaoha.xiaohashu.user.relation.biz.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.alibaba.druid.support.jakarta.WebStatFilter.doFilter(WebStatFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 4, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2481)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:752)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:676)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2147)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1797)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1084)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:400)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395)
+	... 58 common frames omitted
+2025-11-07 14:05:09.214 [http-nio-auto-1-exec-1] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-07 14:05:14.332 [http-nio-auto-1-exec-3] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 5
+2025-11-07 14:05:14.332 [http-nio-auto-1-exec-3] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 5
+2025-11-07 14:05:14.383 [http-nio-auto-1-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [取关用户], 入参: {"unfollowUserId":11}, 请求类: RelationController, 请求方法: unfollow =================================== 
+2025-11-07 14:05:14.527 [http-nio-auto-1-exec-3] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-user, group:DEFAULT_GROUP, clusters: 
+2025-11-07 14:05:14.551 [http-nio-auto-1-exec-3] INFO  com.alibaba.nacos.client.naming - init new ips(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":8033,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-07 14:05:14.561 [http-nio-auto-1-exec-3] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.134.1","port":8033,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-11-07 14:05:14.905 [http-nio-auto-1-exec-3] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> 开始发送取关操作 MQ, 消息体: UnfollowUserMqDTO(userId=5, unfollowUserId=11, createTime=2025-11-07T14:05:14.903454)
+2025-11-07 14:05:14.908 [http-nio-auto-1-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [取关用户], 耗时: 524ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-07 14:05:14.912 [NettyClientPublicExecutor_5] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21EC011C0014, offsetMsgId=C0A8170100002A9F0000000000004648, messageQueue=MessageQueue [topic=FollowUnfollowTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=8]
+2025-11-07 14:05:14.913 [http-nio-auto-1-exec-3] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 5
+2025-11-07 14:05:14.924 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_4] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":5,"unfollowUserId":11,"createTime":[2025,11,7,14,5,14,903454000]}, tags: Unfollow
+2025-11-07 14:05:14.941 [NettyClientPublicExecutor_6] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21EC013B0016, offsetMsgId=C0A8170100002A9F000000000000494D, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=0], queueOffset=1]
+2025-11-07 14:05:14.943 [NettyClientPublicExecutor_6] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21EC013B0015, offsetMsgId=C0A8170100002A9F00000000000047E6, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=0], queueOffset=2]
+2025-11-07 14:05:15.071 [nacos-grpc-client-executor-127.0.0.1-72] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+2025-11-07 14:05:15.071 [nacos-grpc-client-executor-127.0.0.1-72] INFO  com.alibaba.nacos.common.remote.client - [9dc40e10-94d5-4f25-ac1c-19fd005ba216] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+2025-11-07 14:08:24.112 [http-nio-auto-1-exec-4] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ## HeaderUserId2ContextFilter, 用户 ID: 12
+2025-11-07 14:08:24.112 [http-nio-auto-1-exec-4] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 12
+2025-11-07 14:08:24.113 [http-nio-auto-1-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [取关用户], 入参: {"unfollowUserId":11}, 请求类: RelationController, 请求方法: unfollow =================================== 
+2025-11-07 14:08:24.131 [http-nio-auto-1-exec-4] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> 开始发送取关操作 MQ, 消息体: UnfollowUserMqDTO(userId=12, unfollowUserId=11, createTime=2025-11-07T14:08:24.131084500)
+2025-11-07 14:08:24.131 [http-nio-auto-1-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [取关用户], 耗时: 18ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-11-07 14:08:24.132 [http-nio-auto-1-exec-4] INFO  c.q.x.u.r.biz.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 12
+2025-11-07 14:08:24.134 [NettyClientPublicExecutor_8] INFO  c.q.x.u.r.biz.service.impl.RelationServiceImpl - ==> MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21EEE4430017, offsetMsgId=C0A8170100002A9F0000000000004AB9, messageQueue=MessageQueue [topic=FollowUnfollowTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=9]
+2025-11-07 14:08:24.137 [ConsumeMessageThread_xiaohashu_groupFollowUnfollowTopic_5] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> FollowUnfollowConsumer 消费了消息 {"userId":12,"unfollowUserId":11,"createTime":[2025,11,7,14,8,24,131084500]}, tags: Unfollow
+2025-11-07 14:08:24.147 [NettyClientPublicExecutor_10] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：粉丝数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21EEE4510019, offsetMsgId=C0A8170100002A9F0000000000004DC5, messageQueue=MessageQueue [topic=CountFansTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=3]
+2025-11-07 14:08:24.147 [NettyClientPublicExecutor_9] INFO  c.q.x.u.r.biz.consumer.FollowUnfollowConsumer - ==> 【计数服务：关注数】MQ 发送成功，SendResult: SendResult [sendStatus=SEND_OK, msgId=7F0000015B2063947C6B21EEE4510018, offsetMsgId=C0A8170100002A9F0000000000004C58, messageQueue=MessageQueue [topic=CountFollowingTopic, brokerName=LAPTOP-QR8TII6M, queueId=1], queueOffset=3]
+2025-11-07 15:41:50.528 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 15:41:50.583 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 15:41:52.102 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 15:41:52.113 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 15:41:52.114 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - The following 1 profile is active: "dev"
+2025-11-07 15:41:52.733 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-07 15:41:52.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-07 15:41:52.760 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-11-07 15:41:52.903 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2314065f-01f3-3b55-9174-c3cc399e3237
+2025-11-07 15:41:52.934 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.050 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.MessageConverterConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.097 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'createRocketMQMessageConverter' of type [org.apache.rocketmq.spring.support.RocketMQMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.099 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.104 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.105 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$722/0x000001f12947c610] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.106 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.112 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.113 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.ListenerContainerConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-11-07 15:41:53.325 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+2025-11-07 15:41:53.333 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-07 15:41:53.334 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-11-07 15:41:53.475 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-07 15:41:53.476 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1347 ms
+2025-11-07 15:41:53.816 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-11-07 15:41:54.092 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-11-07 15:41:54.315 [main] INFO  o.a.r.s.autoconfigure.RocketMQAutoConfiguration - a producer (xiaohashu_group) init on namesrv 127.0.0.1:9876
+2025-11-07 15:41:54.588 [main] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - running container: DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_groupFollowUnfollowTopic', namespace='', nameServer='127.0.0.1:9876', topic='FollowUnfollowTopic', consumeMode=ORDERLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-11-07 15:41:54.588 [main] INFO  o.a.r.s.a.ListenerContainerConfiguration - Register the listener to container, listenerBeanName:followUnfollowConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2025-11-07 15:41:54.677 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-11-07 15:41:56.201 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 15:41:57.681 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 15:41:57.696 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-07 15:41:57.759 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11546 (http) with context path ''
+2025-11-07 15:41:57.764 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-11-07 15:41:57.764 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-11-07 15:41:57.765 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-11-07 15:41:57.765 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-11-07 15:41:57.781 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-11-07 15:41:57.781 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-11-07 15:41:57.781 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-11-07 15:41:57.784 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-11-07 15:41:57.784 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-11-07 15:41:57.787 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-11-07 15:41:57.791 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of d0b75ad8-d420-413f-88b0-d260c6bdfe0d
+2025-11-07 15:41:57.805 [main] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-11-07 15:41:57.805 [main] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-11-07 15:41:57.805 [main] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-11-07 15:41:57.807 [main] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-11-07 15:41:57.829 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-11-07 15:41:58.675 [main] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1762501318497_127.0.0.1_11555
+2025-11-07 15:41:58.675 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] Notify connected event to listeners.
+2025-11-07 15:41:58.676 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-11-07 15:41:58.676 [main] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-11-07 15:41:58.676 [main] INFO  com.alibaba.nacos.common.remote.client - [d0b75ad8-d420-413f-88b0-d260c6bdfe0d] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1286/0x000001f12987f930
+2025-11-07 15:41:58.677 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-user-relation with instance Instance{instanceId='null', ip='192.168.134.1', port=11546, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-11-07 15:41:58.686 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-user-relation 192.168.134.1:11546 register finished
+2025-11-07 15:41:59.852 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2025-11-07 15:41:59.863 [main] INFO  c.q.x.u.r.biz.XiaohashuUserRelationBizApplication - Started XiaohashuUserRelationBizApplication in 11.007 seconds (process running for 12.328)
+2025-11-07 16:17:05.337 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 16:17:05.338 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 16:17:05.348 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 16:17:08.122 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 17:40:32.521 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 17:40:32.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 18:55:34.823 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 18:55:34.830 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 18:55:34.831 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 18:55:34.832 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 18:55:34.832 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 18:55:35.205 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 19:27:10.199 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 19:27:10.200 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 19:27:10.201 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 19:27:10.201 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 19:27:10.287 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[192.168.23.1:10911] result: true
+2025-11-07 19:27:10.287 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-11-07 19:27:10.287 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true

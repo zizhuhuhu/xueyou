@@ -1,0 +1,17 @@
+com\quanxiaoha\xiaohashu\user\dto\req\FindUsersByIdsReqDTO.class
+com\quanxiaoha\xiaohashu\user\dto\req\RegisterUserReqDTO$RegisterUserReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\user\dto\req\FindUserByPhoneReqDTO.class
+com\quanxiaoha\xiaohashu\user\dto\req\UpdateUserPasswordReqDTO$UpdateUserPasswordReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\user\dto\req\FindUserByIdReqDTO.class
+com\quanxiaoha\xiaohashu\user\api\UserFeignApi.class
+com\quanxiaoha\xiaohashu\user\dto\req\FindUsersByIdsReqDTO$FindUsersByIdsReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\user\dto\req\FindUserByIdReqDTO$FindUserByIdReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\user\dto\resp\FindUserByIdRspDTO$FindUserByIdRspDTOBuilder.class
+com\quanxiaoha\xiaohashu\user\dto\req\FindUserByPhoneReqDTO$FindUserByPhoneReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\user\interceptor\FeignRequestInterceptor.class
+com\quanxiaoha\xiaohashu\user\dto\req\UpdateUserPasswordReqDTO.class
+com\quanxiaoha\xiaohashu\user\dto\resp\FindUserByPhoneRspDTO$FindUserByPhoneRspDTOBuilder.class
+com\quanxiaoha\xiaohashu\user\constant\ApiConstants.class
+com\quanxiaoha\xiaohashu\user\dto\req\RegisterUserReqDTO.class
+com\quanxiaoha\xiaohashu\user\dto\resp\FindUserByPhoneRspDTO.class
+com\quanxiaoha\xiaohashu\user\dto\resp\FindUserByIdRspDTO.class

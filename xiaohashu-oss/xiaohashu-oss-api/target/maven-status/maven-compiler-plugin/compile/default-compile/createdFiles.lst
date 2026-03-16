@@ -1,0 +1,4 @@
+com\quanxiaoha\xiaohashu\oss\api\FileFeignApi.class
+com\quanxiaoha\xiaohashu\oss\constant\ApiConstants.class
+com\quanxiaoha\xiaohashu\oss\interceptor\FeignRequestInterceptor.class
+com\quanxiaoha\xiaohashu\oss\config\FeignFormConfig.class

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xiaoha-framework/xiaoha-commom/xiaoha-commom.iml" filepath="$PROJECT_DIR$/xiaoha-framework/xiaoha-commom/xiaoha-commom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoha-framework/xiaoha-spring-boot-start-biz-operationlog/xiaoha-spring-boot-start-biz-operationlog.iml" filepath="$PROJECT_DIR$/xiaoha-framework/xiaoha-spring-boot-start-biz-operationlog/xiaoha-spring-boot-start-biz-operationlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaoha-framework/xiaoha-spring-boot-start-jackson/xiaoha-spring-boot-start-jackson.iml" filepath="$PROJECT_DIR$/xiaoha-framework/xiaoha-spring-boot-start-jackson/xiaoha-spring-boot-start-jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaohashu-user/xiaosashu-user-biz/xiaosashu-user-biz.iml" filepath="$PROJECT_DIR$/xiaohashu-user/xiaosashu-user-biz/xiaosashu-user-biz.iml" />
+    </modules>
+  </component>
+</project>

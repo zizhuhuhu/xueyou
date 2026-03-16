@@ -1,0 +1,10 @@
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\constant\ApiConstants.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\dto\resp\FindUserByPhoneRspDTO.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\dto\req\FindUsersByIdsReqDTO.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\dto\req\FindUserByIdReqDTO.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\dto\req\RegisterUserReqDTO.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\dto\resp\FindUserByIdRspDTO.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\interceptor\FeignRequestInterceptor.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\api\UserFeignApi.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\dto\req\FindUserByPhoneReqDTO.java
+E:\xiaohashu\xiaohashu-user\xiaohashu-user-api\src\main\java\com\quanxiaoha\xiaohashu\user\dto\req\UpdateUserPasswordReqDTO.java

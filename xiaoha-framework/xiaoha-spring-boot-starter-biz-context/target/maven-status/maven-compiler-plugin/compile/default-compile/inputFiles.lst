@@ -1,0 +1,5 @@
+E:\xiaohashu\xiaoha-framework\xiaoha-spring-boot-starter-biz-context\src\main\java\com\quanxiaoha\framework\biz\context\config\ContextAutoConfiguration.java
+E:\xiaohashu\xiaoha-framework\xiaoha-spring-boot-starter-biz-context\src\main\java\com\quanxiaoha\framework\biz\context\interceptor\FeignRequestInterceptor.java
+E:\xiaohashu\xiaoha-framework\xiaoha-spring-boot-starter-biz-context\src\main\java\com\quanxiaoha\framework\biz\context\config\FeignContextAutoConfiguration.java
+E:\xiaohashu\xiaoha-framework\xiaoha-spring-boot-starter-biz-context\src\main\java\com\quanxiaoha\framework\biz\context\holder\LoginUserContextHolder.java
+E:\xiaohashu\xiaoha-framework\xiaoha-spring-boot-starter-biz-context\src\main\java\com\quanxiaoha\framework\biz\context\filter\HeaderUserId2ContextFilter.java

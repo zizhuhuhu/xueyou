@@ -1,0 +1,10 @@
+com\quanxiaoha\xiaohashu\kv\constant\ApiConstants.class
+com\quanxiaoha\xiaohashu\kv\dto\rsp\FindNoteContentRspDTO.class
+com\quanxiaoha\xiaohashu\kv\dto\req\FindNoteContentReqDTO$FindNoteContentReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\kv\dto\req\DeleteNoteContentReqDTO.class
+com\quanxiaoha\xiaohashu\kv\dto\req\DeleteNoteContentReqDTO$DeleteNoteContentReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\kv\dto\req\AddNoteContentReqDTO.class
+com\quanxiaoha\xiaohashu\kv\dto\req\FindNoteContentReqDTO.class
+com\quanxiaoha\xiaohashu\kv\dto\req\AddNoteContentReqDTO$AddNoteContentReqDTOBuilder.class
+com\quanxiaoha\xiaohashu\kv\dto\rsp\FindNoteContentRspDTO$FindNoteContentRspDTOBuilder.class
+com\quanxiaoha\xiaohashu\kv\api\KeyValueFeignApi.class

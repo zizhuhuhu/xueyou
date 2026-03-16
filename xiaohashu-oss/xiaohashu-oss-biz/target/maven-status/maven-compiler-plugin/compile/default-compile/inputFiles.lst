@@ -1,0 +1,14 @@
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\exception\GlobalExceptionHandler.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\service\impl\FileServiceImpl.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\factory\FileStrategyFactory.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\controller\FileController.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\config\MinioProperties.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\enums\ResponseCodeEnum.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\strategy\impl\AliyunOssFileStrategy.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\strategy\FileStrategy.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\controller\TestController.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\XiaohashuOssBizApplication.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\strategy\impl\MinioFileStrategy.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\filter\HeaderUserId2ContextFilter.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\config\MinioConfig.java
+E:\xiaohashu\xiaohashu-oss\xiaohashu-oss-biz\src\main\java\com\quanxiaoha\xiaohashu\oss\biz\service\FileService.java
